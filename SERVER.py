@@ -158,4 +158,4 @@ def editClass() -> Response:
 
 
 if __name__ == "__main__":
-    SERVER.run(debug=True, port=5000, host="127.3.8.2")
+    SERVER.run(host='0.0.0.0', port=5000, debug=True, threaded=True)
