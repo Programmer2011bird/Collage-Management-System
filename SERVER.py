@@ -38,6 +38,7 @@ class classcontrol:
             <link rel="stylesheet" href=
             "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
             <title>Collage Management system</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <style>width:500px;</style>    
         </head>
         <body class="bg-dark position-relative text-light">
@@ -158,4 +159,4 @@ def editClass() -> Response:
 
 
 if __name__ == "__main__":
-    SERVER.run(host='0.0.0.0', port=5000, debug=True, threaded=True)
+    SERVER.run(host='0.0.0.0', port=5000, debug=True)
